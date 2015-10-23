@@ -1,0 +1,11 @@
+{
+  "name": "egghead-angular2-london-workshop",
+  "version": "1.0.0",
+  "description": "This is the seed for a workshop at AngularConnect 2015",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
