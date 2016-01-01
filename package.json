@@ -1,11 +1,36 @@
 {
-  "name": "egghead-angular2-london-workshop",
+  "name": "angular2-seed",
   "version": "1.0.0",
-  "description": "This is the seed for a workshop at AngularConnect 2015",
-  "main": "index.js",
+  "description": "A simple starter Angular2 project",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --inline --colors --progress --display-error-details --display-cached --port 8080 --content-base src"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angular/angular2-seed.git"
+  },
+  "keywords": [
+    "Angular2",
+    "angular2-seed"
+  ],
+  "author": "Rob Wormald <robwormald@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/angular/angular2-seed/issues"
+  },
+  "homepage": "https://github.com/angular/angular2-seed#readme",
+  "devDependencies": {
+    "ts-loader": "^0.7.2",
+    "typescript": "^1.7.3",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "dependencies": {
+    "angular2": "2.0.0-beta.0",
+    "es6-promise": "3.0.2",
+    "es6-shim": "0.33.3",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.0",
+    "zone.js": "0.5.10"
+  }
 }
