@@ -14,4 +14,7 @@
 //import "./lessons/14-using-pipes/main";
 //import "./lessons/15-pipes-and-immutability/main";
 //import "./lessons/16-refactoring-todo-updates/main";
-import "./lessons/17-selecting-pipe-params/main";
+//import "./lessons/17-selecting-pipe-params/main";
+//import "./lessons/18-search-pipe/main";
+//import "./lessons/19-organization/main";
+import "./lessons/20-recap-and-whats-next/main";
