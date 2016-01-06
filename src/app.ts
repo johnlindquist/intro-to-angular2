@@ -1,4 +1,4 @@
-import "./lessons/01-hello-world/main";
+//import "./lessons/01-hello-world/main";
 //import "./lessons/02-first-component/main";
 //import "./lessons/03-events-and-refs/main";
 //import "./lessons/04-events-in-depth/main";
@@ -14,4 +14,4 @@ import "./lessons/01-hello-world/main";
 //import "./lessons/14-using-pipes/main";
 //import "./lessons/15-pipes-and-immutability/main";
 //import "./lessons/16-refactoring-todo-updates/main";
-//import "./lessons/17-selecting-pipe-params/main";
+import "./lessons/17-selecting-pipe-params/main";
