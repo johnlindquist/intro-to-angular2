@@ -1,4 +1,5 @@
 var webpack = require('webpack');
+var HtmlWebpackPlugin = require('html-webpack-plugin');
 var path = require('path');
 
 module.exports = {
@@ -11,7 +12,11 @@ module.exports = {
     filename: "bundle.js"
   },
   plugins: [
-    new webpack.optimize.CommonsChunkPlugin('vendor', 'vendor.bundle.js')
+    new webpack.optimize.CommonsChunkPlugin('vendor', 'vendor.bundle.js'),
+    new HtmlWebpackPlugin({
+      inject: false,
+      template: './src/index.html'
+    })       
   ],
 
   resolve: {

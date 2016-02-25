@@ -5,6 +5,6 @@ import {Component} from "angular2/core";
     selector: 'app',
     template: '<div>Hello world</div>'
 })
-class App{};
+class App{}
 
 bootstrap(App);

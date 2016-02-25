@@ -5,8 +5,10 @@ import {TodoInput} from "./todo-input";
 @Component({
     selector: 'app',
     directives: [TodoInput],
-    template: '<div><todo-input></todo-input></div>'
+    template: `<div>
+        <todo-input></todo-input>
+    </div>`
 })
-class App{};
+class App{}
 
 bootstrap(App);
